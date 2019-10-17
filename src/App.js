@@ -41,9 +41,9 @@ class App extends Component {
   }
 
   //  Now we use Life cycle method
-  // componentDidMount() {
-  //   this.getRecipes();
-  // }
+  componentDidMount() {
+    this.getRecipes();
+  }
 
   // Switch between views bascially consitionally rendering the page
   displayPage = index => {
